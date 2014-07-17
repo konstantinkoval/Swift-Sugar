@@ -15,29 +15,59 @@
 		B5886AF6197722B6000D171E /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDA2ED193E44500048EAF3 /* IntExtensions.swift */; };
 		B5886AF7197722B6000D171E /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715556419428D12004BC4BB /* ArrayExtensions.swift */; };
 		B5886AF8197722B6000D171E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453158F51940EF4100037838 /* StringExtensions.swift */; };
-		B5886B0219772325000D171E /* SwiftSugar_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5886B0119772325000D171E /* SwiftSugar_Tests.swift */; };
-		B5886B0619772353000D171E /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDA2D9193E430C0048EAF3 /* IntExtensionsTests.swift */; };
-		B5886B0719772353000D171E /* ArrayExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF72A41969BE21000E55A2 /* ArrayExtensionsTests.swift */; };
-		B5886B0819772359000D171E /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDA2ED193E44500048EAF3 /* IntExtensions.swift */; };
-		B5886B0919772359000D171E /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715556419428D12004BC4BB /* ArrayExtensions.swift */; };
-		B5886B0A19772359000D171E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453158F51940EF4100037838 /* StringExtensions.swift */; };
+		B5886B3C197729E0000D171E /* SwiftSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5886AAE197721B2000D171E /* SwiftSugar.framework */; };
+		B5886B4919772A74000D171E /* ArrayExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5886B4719772A74000D171E /* ArrayExtensionsTests.swift */; };
+		B5886B4A19772A74000D171E /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5886B4819772A74000D171E /* IntExtensionsTests.swift */; };
+		B5886B4B19772A7D000D171E /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDA2ED193E44500048EAF3 /* IntExtensions.swift */; };
+		B5886B4C19772A7D000D171E /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715556419428D12004BC4BB /* ArrayExtensions.swift */; };
+		B5886B4D19772A7D000D171E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453158F51940EF4100037838 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B5886B3D197729E0000D171E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EDA2BE193E430C0048EAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5886AAD197721B2000D171E;
+			remoteInfo = "SwiftSugar-OSX";
+		};
+		B5886B4319772A3E000D171E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EDA2BE193E430C0048EAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5886AAD197721B2000D171E;
+			remoteInfo = "SwiftSugar-OSX";
+		};
+		B5886B4519772A3E000D171E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EDA2BE193E430C0048EAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5886AAD197721B2000D171E;
+			remoteInfo = "SwiftSugar-OSX";
+		};
+		B5886B6319772B00000D171E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EDA2BE193E430C0048EAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5886AAD197721B2000D171E;
+			remoteInfo = "SwiftSugar-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		453158F51940EF4100037838 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = SwiftSugar/StringExtensions.swift; sourceTree = "<group>"; };
-		B5886AAE197721B2000D171E /* SwiftSugar-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SwiftSugar-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453158F51940EF4100037838 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		B5886AAE197721B2000D171E /* SwiftSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5886AB1197721B2000D171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5886AB2197721B2000D171E /* SwiftSugar-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSugar-OSX.h"; sourceTree = "<group>"; };
-		B5886AD3197721CD000D171E /* SwiftSugar-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SwiftSugar-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5886AD3197721CD000D171E /* SwiftSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5886AD6197721CD000D171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5886AD7197721CD000D171E /* SwiftSugar-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSugar-iOS.h"; sourceTree = "<group>"; };
-		B5886AFD19772325000D171E /* SwiftSugar Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftSugar Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5886B0019772325000D171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5886B0119772325000D171E /* SwiftSugar_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSugar_Tests.swift; sourceTree = "<group>"; };
-		C715556419428D12004BC4BB /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = SwiftSugar/ArrayExtensions.swift; sourceTree = "<group>"; };
-		C7CF72A41969BE21000E55A2 /* ArrayExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtensionsTests.swift; path = ../SwiftSugarTests/ArrayExtensionsTests.swift; sourceTree = "<group>"; };
-		C7EDA2D9193E430C0048EAF3 /* IntExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IntExtensionsTests.swift; path = ../SwiftSugarTests/IntExtensionsTests.swift; sourceTree = "<group>"; };
-		C7EDA2ED193E44500048EAF3 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = SwiftSugar/IntExtensions.swift; sourceTree = "<group>"; };
+		B5886B36197729E0000D171E /* SwiftSugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5886B39197729E0000D171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SwiftSugarTests/Info.plist; sourceTree = "<group>"; };
+		B5886B4719772A74000D171E /* ArrayExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensionsTests.swift; sourceTree = "<group>"; };
+		B5886B4819772A74000D171E /* IntExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensionsTests.swift; sourceTree = "<group>"; };
+		C715556419428D12004BC4BB /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		C7EDA2ED193E44500048EAF3 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5886AFA19772325000D171E /* Frameworks */ = {
+		B5886B33197729E0000D171E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5886B3C197729E0000D171E /* SwiftSugar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,21 +130,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B5886AFE19772325000D171E /* SwiftSugar Tests */ = {
+		B5886B37197729E0000D171E /* SwiftSugarTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7EDA2D9193E430C0048EAF3 /* IntExtensionsTests.swift */,
-				C7CF72A41969BE21000E55A2 /* ArrayExtensionsTests.swift */,
-				B5886B0119772325000D171E /* SwiftSugar_Tests.swift */,
-				B5886AFF19772325000D171E /* Supporting Files */,
+				B5886B4719772A74000D171E /* ArrayExtensionsTests.swift */,
+				B5886B4819772A74000D171E /* IntExtensionsTests.swift */,
+				B5886B38197729E0000D171E /* Supporting Files */,
 			);
-			path = "SwiftSugar Tests";
+			path = SwiftSugarTests;
 			sourceTree = "<group>";
 		};
-		B5886AFF19772325000D171E /* Supporting Files */ = {
+		B5886B38197729E0000D171E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5886B0019772325000D171E /* Info.plist */,
+				B5886B39197729E0000D171E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,7 +154,7 @@
 				C7EDA2C8193E430C0048EAF3 /* SwiftSugar */,
 				B5886AAF197721B2000D171E /* SwiftSugar-OSX */,
 				B5886AD4197721CD000D171E /* SwiftSugar-iOS */,
-				B5886AFE19772325000D171E /* SwiftSugar Tests */,
+				B5886B37197729E0000D171E /* SwiftSugarTests */,
 				C7EDA2C7193E430C0048EAF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,9 +162,9 @@
 		C7EDA2C7193E430C0048EAF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5886AAE197721B2000D171E /* SwiftSugar-OSX.framework */,
-				B5886AD3197721CD000D171E /* SwiftSugar-iOS.framework */,
-				B5886AFD19772325000D171E /* SwiftSugar Tests.xctest */,
+				B5886AAE197721B2000D171E /* SwiftSugar.framework */,
+				B5886AD3197721CD000D171E /* SwiftSugar.framework */,
+				B5886B36197729E0000D171E /* SwiftSugarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,7 +216,7 @@
 			);
 			name = "SwiftSugar-OSX";
 			productName = "SwiftSugar-OSX";
-			productReference = B5886AAE197721B2000D171E /* SwiftSugar-OSX.framework */;
+			productReference = B5886AAE197721B2000D171E /* SwiftSugar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B5886AD2197721CD000D171E /* SwiftSugar-iOS */ = {
@@ -204,24 +234,28 @@
 			);
 			name = "SwiftSugar-iOS";
 			productName = "SwiftSugar-iOS";
-			productReference = B5886AD3197721CD000D171E /* SwiftSugar-iOS.framework */;
+			productReference = B5886AD3197721CD000D171E /* SwiftSugar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B5886AFC19772325000D171E /* SwiftSugar Tests */ = {
+		B5886B35197729E0000D171E /* SwiftSugarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5886B0319772325000D171E /* Build configuration list for PBXNativeTarget "SwiftSugar Tests" */;
+			buildConfigurationList = B5886B3F197729E0000D171E /* Build configuration list for PBXNativeTarget "SwiftSugarTests" */;
 			buildPhases = (
-				B5886AF919772325000D171E /* Sources */,
-				B5886AFA19772325000D171E /* Frameworks */,
-				B5886AFB19772325000D171E /* Resources */,
+				B5886B32197729E0000D171E /* Sources */,
+				B5886B33197729E0000D171E /* Frameworks */,
+				B5886B34197729E0000D171E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B5886B3E197729E0000D171E /* PBXTargetDependency */,
+				B5886B4419772A3E000D171E /* PBXTargetDependency */,
+				B5886B4619772A3E000D171E /* PBXTargetDependency */,
+				B5886B6419772B00000D171E /* PBXTargetDependency */,
 			);
-			name = "SwiftSugar Tests";
-			productName = "SwiftSugar Tests";
-			productReference = B5886AFD19772325000D171E /* SwiftSugar Tests.xctest */;
+			name = SwiftSugarTests;
+			productName = SwiftSugarTests;
+			productReference = B5886B36197729E0000D171E /* SwiftSugarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -239,8 +273,9 @@
 					B5886AD2197721CD000D171E = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					B5886AFC19772325000D171E = {
+					B5886B35197729E0000D171E = {
 						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B5886AAD197721B2000D171E;
 					};
 				};
 			};
@@ -258,7 +293,7 @@
 			targets = (
 				B5886AAD197721B2000D171E /* SwiftSugar-OSX */,
 				B5886AD2197721CD000D171E /* SwiftSugar-iOS */,
-				B5886AFC19772325000D171E /* SwiftSugar Tests */,
+				B5886B35197729E0000D171E /* SwiftSugarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,7 +313,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5886AFB19772325000D171E /* Resources */ = {
+		B5886B34197729E0000D171E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,20 +343,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5886AF919772325000D171E /* Sources */ = {
+		B5886B32197729E0000D171E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5886B0A19772359000D171E /* StringExtensions.swift in Sources */,
-				B5886B0219772325000D171E /* SwiftSugar_Tests.swift in Sources */,
-				B5886B0919772359000D171E /* ArrayExtensions.swift in Sources */,
-				B5886B0819772359000D171E /* IntExtensions.swift in Sources */,
-				B5886B0719772353000D171E /* ArrayExtensionsTests.swift in Sources */,
-				B5886B0619772353000D171E /* IntExtensionsTests.swift in Sources */,
+				B5886B4D19772A7D000D171E /* StringExtensions.swift in Sources */,
+				B5886B4A19772A74000D171E /* IntExtensionsTests.swift in Sources */,
+				B5886B4C19772A7D000D171E /* ArrayExtensions.swift in Sources */,
+				B5886B4B19772A7D000D171E /* IntExtensions.swift in Sources */,
+				B5886B4919772A74000D171E /* ArrayExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5886B3E197729E0000D171E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5886AAD197721B2000D171E /* SwiftSugar-OSX */;
+			targetProxy = B5886B3D197729E0000D171E /* PBXContainerItemProxy */;
+		};
+		B5886B4419772A3E000D171E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5886AAD197721B2000D171E /* SwiftSugar-OSX */;
+			targetProxy = B5886B4319772A3E000D171E /* PBXContainerItemProxy */;
+		};
+		B5886B4619772A3E000D171E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5886AAD197721B2000D171E /* SwiftSugar-OSX */;
+			targetProxy = B5886B4519772A3E000D171E /* PBXContainerItemProxy */;
+		};
+		B5886B6419772B00000D171E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5886AAD197721B2000D171E /* SwiftSugar-OSX */;
+			targetProxy = B5886B6319772B00000D171E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B5886AC7197721B2000D171E /* Debug */ = {
@@ -329,7 +386,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -343,7 +400,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftSugar;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -357,7 +414,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -367,7 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftSugar;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -379,7 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -391,7 +448,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftSugar;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -403,7 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -411,7 +468,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftSugar;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -419,7 +476,7 @@
 			};
 			name = Release;
 		};
-		B5886B0419772325000D171E /* Debug */ = {
+		B5886B40197729E0000D171E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -431,7 +488,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SwiftSugar Tests/Info.plist";
+				INFOPLIST_FILE = SwiftSugarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -440,7 +497,7 @@
 			};
 			name = Debug;
 		};
-		B5886B0519772325000D171E /* Release */ = {
+		B5886B41197729E0000D171E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -449,7 +506,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SwiftSugar Tests/Info.plist";
+				INFOPLIST_FILE = SwiftSugarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -545,6 +602,7 @@
 				B5886AC8197721B2000D171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5886AE6197721CD000D171E /* Build configuration list for PBXNativeTarget "SwiftSugar-iOS" */ = {
 			isa = XCConfigurationList;
@@ -553,14 +611,16 @@
 				B5886AE8197721CD000D171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B5886B0319772325000D171E /* Build configuration list for PBXNativeTarget "SwiftSugar Tests" */ = {
+		B5886B3F197729E0000D171E /* Build configuration list for PBXNativeTarget "SwiftSugarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5886B0419772325000D171E /* Debug */,
-				B5886B0519772325000D171E /* Release */,
+				B5886B40197729E0000D171E /* Debug */,
+				B5886B41197729E0000D171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7EDA2C1193E430C0048EAF3 /* Build configuration list for PBXProject "SwiftSugar" */ = {
 			isa = XCConfigurationList;
