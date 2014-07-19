@@ -133,6 +133,39 @@ let x : [(Int,Int)] = zip([1,2,3,4,5], [1,2,3])
 ### Swift (Global functions)
 ---
 
+**Array**  
+
+``` swift
+[1,2,3].reduce(0){$0 + $1}
+//6
+```
+
+```swift
+var ar = [3,1,2]
+ar.sort{$0 < $1}
+//[1,2,3]
+```
+
+``` swift
+[2,3,1].sorted {$0 < $1}
+//[1,2,3]
+```
+
+``` swift
+[1,2,3].map {$0 + 10}
+//[11,12,13]
+```
+
+``` swift
+[1,2,3].reverse()
+//[3,2,1]
+```
+
+``` swift
+[1,2,3,4].filter {$0 % 2 == 0}
+//[2,4]
+```
+
 **Collections**  
 ``` swift
 minElement([1,2,3,4])
