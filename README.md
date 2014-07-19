@@ -177,6 +177,15 @@ manElement([1,2,3,4])
 //4
 ```
 
+``` swift
+contains([1,2,3], 3)
+//true
+```
+
+``` swift
+find([5,2,3,1], 1)
+//3, return Optional
+```
 
 
 
