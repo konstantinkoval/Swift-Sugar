@@ -187,8 +187,25 @@ find([5,2,3,1], 1)
 //3, return Optional
 ```
 
+``` swift
+//Partition a range into two partially sorted regions
+// where items in [start..pivot) < [pivot..end)
+var ar = [20, 10, 30, 1, 2, 3]
+var pivot = partition(&ar, Range(start:0, end:6))
+ar[0..<pivot] //[2, 10, 3, 1]
+ar[pivot..<ar.endIndex] // [20, 30]
+```
 
+``` swift
+var ar = [1, 2, 0, 3, 4, 0, 5, 6, 0, 0]
+split(ar) {$0 == 0}
+// [[1, 2], [3, 4], [5, 6]]
+```
 
+``` swift
+startsWith([1,2,3,4,5], [1,2,3])
+//true
+```
 
 
 
