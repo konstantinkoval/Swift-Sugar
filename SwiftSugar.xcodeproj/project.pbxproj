@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		453158F61940EF4100037838 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453158F51940EF4100037838 /* StringExtensions.swift */; };
+		B562BEB2197D6842008D333E /* SwiftSugarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562BEB1197D6842008D333E /* SwiftSugarTest.swift */; };
+		B562BEB3197D6885008D333E /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F201F4197882860085B752 /* SwiftSugar.swift */; };
 		C715556519428D12004BC4BB /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715556419428D12004BC4BB /* ArrayExtensions.swift */; };
 		C7CF72A31969BDD4000E55A2 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715556419428D12004BC4BB /* ArrayExtensions.swift */; };
 		C7CF72A51969BE21000E55A2 /* ArrayExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF72A41969BE21000E55A2 /* ArrayExtensionsTests.swift */; };
@@ -30,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		453158F51940EF4100037838 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		B562BEB1197D6842008D333E /* SwiftSugarTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSugarTest.swift; sourceTree = "<group>"; };
 		C715556419428D12004BC4BB /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		C7CF72A41969BE21000E55A2 /* ArrayExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensionsTests.swift; sourceTree = "<group>"; };
 		C7EDA2C6193E430C0048EAF3 /* SwiftSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +98,7 @@
 			children = (
 				C7EDA2D9193E430C0048EAF3 /* IntExtensionsTests.swift */,
 				C7CF72A41969BE21000E55A2 /* ArrayExtensionsTests.swift */,
+				B562BEB1197D6842008D333E /* SwiftSugarTest.swift */,
 				C7EDA2D7193E430C0048EAF3 /* Supporting Files */,
 			);
 			path = SwiftSugarTests;
@@ -251,10 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B562BEB3197D6885008D333E /* SwiftSugar.swift in Sources */,
 				C7EDA2DA193E430C0048EAF3 /* IntExtensionsTests.swift in Sources */,
 				C7CF72A31969BDD4000E55A2 /* ArrayExtensions.swift in Sources */,
 				C7EDA31C193E48CC0048EAF3 /* IntExtensions.swift in Sources */,
 				C7CF72A51969BE21000E55A2 /* ArrayExtensionsTests.swift in Sources */,
+				B562BEB2197D6842008D333E /* SwiftSugarTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

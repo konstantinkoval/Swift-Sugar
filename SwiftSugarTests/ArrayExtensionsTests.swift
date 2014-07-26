@@ -59,5 +59,21 @@ class ArrayExtensionsTests: XCTestCase {
         XCTAssertTrue(removed == [3, 4], "should be equal")
         XCTAssertEqual(removed.count, 2, "should have 2 elements")
     }
+    
+    func testFist() {
+        
+        var empty :[Int] = []
+        var full :[Int] = [1, 2]
+        XCTAssertTrue(empty.first == nil, "shold be nil")
+        XCTAssertTrue(full.first == 1, "shold be 1")
+    }
+    
+    func testLast() {
+        
+        var empty :[Int] = []
+        var full :[Int] = [1, 2]
+        XCTAssertTrue(empty.last == nil, "shold be nil")
+        XCTAssertTrue(full.last == 2, "shold be 2")
+    }
   
 }

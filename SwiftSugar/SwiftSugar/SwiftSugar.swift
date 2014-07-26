@@ -16,3 +16,11 @@ func zip<X,Y>(listX : [X], listY : [Y]) -> [(X,Y)] {
     
     return [(listX[0],listY[0])] + zip(listX.remove(1), listY.remove(1))
 }
+
+func firstElement<C>(collection : [C]) -> C? {
+    return collection.isEmpty ? nil : collection[0]
+}
+
+func lastElemen<C>(collection : [C]) -> C? {
+    return collection.isEmpty ? nil : collection[collection.endIndex - 1]
+}
