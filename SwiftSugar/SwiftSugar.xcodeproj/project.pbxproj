@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5769ED619890DC700C1CC0A /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769ED519890DC700C1CC0A /* SwiftSugar.swift */; };
+		B5769ED719890DD500C1CC0A /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769ED519890DC700C1CC0A /* SwiftSugar.swift */; };
+		B5769ED819890DD600C1CC0A /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769ED519890DC700C1CC0A /* SwiftSugar.swift */; };
 		B5886AB3197721B2000D171E /* SwiftSugar-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = B5886AB2197721B2000D171E /* SwiftSugar-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5886AD8197721CD000D171E /* SwiftSugar-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B5886AD7197721CD000D171E /* SwiftSugar-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5886AF3197722B5000D171E /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDA2ED193E44500048EAF3 /* IntExtensions.swift */; };
@@ -56,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		453158F51940EF4100037838 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		B5769ED519890DC700C1CC0A /* SwiftSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSugar.swift; sourceTree = "<group>"; };
 		B5886AAE197721B2000D171E /* SwiftSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5886AB1197721B2000D171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5886AB2197721B2000D171E /* SwiftSugar-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSugar-OSX.h"; sourceTree = "<group>"; };
@@ -172,6 +176,7 @@
 		C7EDA2C8193E430C0048EAF3 /* SwiftSugar */ = {
 			isa = PBXGroup;
 			children = (
+				B5769ED519890DC700C1CC0A /* SwiftSugar.swift */,
 				C7EDA2ED193E44500048EAF3 /* IntExtensions.swift */,
 				C715556419428D12004BC4BB /* ArrayExtensions.swift */,
 				453158F51940EF4100037838 /* StringExtensions.swift */,
@@ -329,6 +334,7 @@
 			files = (
 				B5886AF5197722B5000D171E /* StringExtensions.swift in Sources */,
 				B5886AF3197722B5000D171E /* IntExtensions.swift in Sources */,
+				B5769ED619890DC700C1CC0A /* SwiftSugar.swift in Sources */,
 				B5886AF4197722B5000D171E /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +345,7 @@
 			files = (
 				B5886AF8197722B6000D171E /* StringExtensions.swift in Sources */,
 				B5886AF6197722B6000D171E /* IntExtensions.swift in Sources */,
+				B5769ED719890DD500C1CC0A /* SwiftSugar.swift in Sources */,
 				B5886AF7197722B6000D171E /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5769ED819890DD600C1CC0A /* SwiftSugar.swift in Sources */,
 				B5886B4D19772A7D000D171E /* StringExtensions.swift in Sources */,
 				B5886B4A19772A74000D171E /* IntExtensionsTests.swift in Sources */,
 				B5886B4C19772A7D000D171E /* ArrayExtensions.swift in Sources */,

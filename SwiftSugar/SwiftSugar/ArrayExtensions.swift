@@ -54,4 +54,11 @@ extension Array {
         
         return repeated
     }
+    
+    var first :T? {
+        return firstElement(self)
+    }
+    var last: T? {
+        return lastElemen(self)
+    }
 }

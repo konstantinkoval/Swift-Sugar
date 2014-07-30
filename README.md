@@ -71,6 +71,16 @@ Swift Sugar is heavily inspired on [ObjectiveSugar](https://github.com/supermari
 // 2
 ```
 
+``` siwft
+[3,2,1].first
+//3
+```
+
+``` siwft
+[3,2,1].last
+//1
+```
+
 **String functions** 
 
 ``` swift

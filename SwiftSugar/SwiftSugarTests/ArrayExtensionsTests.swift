@@ -60,23 +60,19 @@ class ArrayExtensionsTests: XCTestCase {
         XCTAssertEqual(removed.count, 2, "should have 2 elements")
     }
     
-    func testZipPerformance() {
-        self.measureBlock() {
-            100.times {
-                var res = zip(+, [1,2,3,1,2,312,123,421412,41212,412321,1,2,3,3,4,5,5,1,23,4,5,5,1,2,3,1,2,312,123,421412,41212,412321,1,2,3,3,4,5,5,1,23,4,5,5], [1,2,3,1,2,312,123,421412,41212,412321,1,2,3,3,4,5,5,1,23,4,5,5,1,2,3,1,2,312,123,421412,41212,412321,1,2,3,3,4,5,5,1,23,4,5,5])
-            }
-        }
+    func testFist() {
+        
+        var empty :[Int] = []
+        var full :[Int] = [1, 2]
+        XCTAssertTrue(empty.first == nil, "shold be nil")
+        XCTAssertTrue(full.first == 1, "shold be 1")
     }
     
-    func testZip2Performance() {
-        self.measureBlock() {
-            100.times {
-                var res = zip2(+,
-                [1,2,3,1,2,312,123,421412,41212,412321,1,2,3,3,4,5,5,1,23,4,5,5,1,2,3,1,2,312,123,421412,41212,412321,1,2,3,3,4,5,5,1,23,4,5,5],
-                [1,2,3,1,2,312,123,421412,41212,412321,1,2,3,3,4,5,5,1,23,4,5,5,1,2,3,1,2,312,123,421412,41212,412321,1,2,3,3,4,5,5,1,23,4,5,5])
-            }
-        }
-    }
-
-  
+    func testLast() {
+        
+        var empty :[Int] = []
+        var full :[Int] = [1, 2]
+        XCTAssertTrue(empty.last == nil, "shold be nil")
+        XCTAssertTrue(full.last == 2, "shold be 2")
+    }  
 }
