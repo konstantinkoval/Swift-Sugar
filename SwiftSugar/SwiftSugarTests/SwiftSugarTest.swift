@@ -11,8 +11,8 @@ import XCTest
 class SwiftSugarTest: XCTestCase {
 
     func testFirstElemen() {
-        var empty :[Int] = []
-        var full :[Int] = [1, 2]
+        let empty = [Int]()
+        let full = [1, 2]
         
         XCTAssertNil(firstElement(empty), "shold be nil")
         XCTAssertTrue(firstElement(full) == 1, "shold be 1")
@@ -20,10 +20,15 @@ class SwiftSugarTest: XCTestCase {
     
     func testLastElement() {
         
-        var empty :[Int] = []
-        var full :[Int] = [1, 2]
+        let empty = [Int]()
+        let full = [1, 2]
         XCTAssertNil(lastElemen(empty), "shold be nil")
         XCTAssertTrue(lastElemen(full) == 2, "shold be 2")
     }
-
+    func testRemove() {
+        let ar = [1,1,2,2,3,3,4,5]
+        XCTAssertTrue(remove([1,2,4], from: ar) == [3,3,5], "should be")
+        XCTAssertTrue(remove([1,1,2,2,3,3,4,5], from: ar)  == [Int](), "should remove all")
+        XCTAssertTrue(remove([], from: ar) == [1,1,2,2,3,3,4,5], "should not renove any")
+    }
 }

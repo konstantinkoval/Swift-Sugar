@@ -45,7 +45,7 @@ Swift Sugar is heavily inspired on [ObjectiveSugar](https://github.com/supermari
 // 1
 ```
 
-**Array functions** 
+**Array functions**  
 ``` swift
 [1,2,3,4].initial(3)
 // [1,2,3]
@@ -138,6 +138,21 @@ String.join("S","w","i","f","t")
 ``` swift
 let x : [(Int,Int)] = zip([1,2,3,4,5], [1,2,3])
 // [(1,1),(2,2),(3,3)]
+```
+
+``` swift
+firstElement([3,2,1])
+//3
+```
+
+``` swift
+lastElemen([3,2,1])
+// 1
+```
+
+``` swift
+remove([1,2,4] from: [1,1,2,2,3,3,4,5])
+// [3,3,5]
 ```
 
 ### Swift (Global functions)

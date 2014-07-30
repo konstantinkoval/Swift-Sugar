@@ -24,3 +24,14 @@ public func firstElement<C>(collection : [C]) -> C? {
 public func lastElemen<C>(collection : [C]) -> C? {
     return collection.isEmpty ? nil : collection[collection.endIndex - 1]
 }
+
+public func remove <T: Equatable>(remove: [T], #from : [T] ) -> Array<T> {
+  
+    var res = Array<T>()
+    for element in from {
+        if !contains(remove, element) {
+            res += element
+        }
+    }
+    return res
+}

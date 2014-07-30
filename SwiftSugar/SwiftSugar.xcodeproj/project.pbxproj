@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5181FF91989333E00E7BAF5 /* SwiftSugarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5181FF81989333E00E7BAF5 /* SwiftSugarTest.swift */; };
 		B5769ED619890DC700C1CC0A /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769ED519890DC700C1CC0A /* SwiftSugar.swift */; };
 		B5769ED719890DD500C1CC0A /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769ED519890DC700C1CC0A /* SwiftSugar.swift */; };
 		B5769ED819890DD600C1CC0A /* SwiftSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769ED519890DC700C1CC0A /* SwiftSugar.swift */; };
@@ -59,6 +60,7 @@
 
 /* Begin PBXFileReference section */
 		453158F51940EF4100037838 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		B5181FF81989333E00E7BAF5 /* SwiftSugarTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSugarTest.swift; sourceTree = "<group>"; };
 		B5769ED519890DC700C1CC0A /* SwiftSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSugar.swift; sourceTree = "<group>"; };
 		B5886AAE197721B2000D171E /* SwiftSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5886AB1197721B2000D171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				B5886B4719772A74000D171E /* ArrayExtensionsTests.swift */,
 				B5886B4819772A74000D171E /* IntExtensionsTests.swift */,
+				B5181FF81989333E00E7BAF5 /* SwiftSugarTest.swift */,
 				B5886B38197729E0000D171E /* Supporting Files */,
 			);
 			path = SwiftSugarTests;
@@ -356,6 +359,7 @@
 			files = (
 				B5769ED819890DD600C1CC0A /* SwiftSugar.swift in Sources */,
 				B5886B4D19772A7D000D171E /* StringExtensions.swift in Sources */,
+				B5181FF91989333E00E7BAF5 /* SwiftSugarTest.swift in Sources */,
 				B5886B4A19772A74000D171E /* IntExtensionsTests.swift in Sources */,
 				B5886B4C19772A7D000D171E /* ArrayExtensions.swift in Sources */,
 				B5886B4B19772A7D000D171E /* IntExtensions.swift in Sources */,
