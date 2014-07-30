@@ -10,14 +10,14 @@ import Foundation
 
 extension String {
     
-    var length :Int
+    public var length :Int
     {
     get{
         return countElements(self)
     }
     }
     
-    static func join(strings: String...)->String
+    public static func join(strings: String...)->String
     {
         var result: String=""
         for value in strings{
@@ -26,7 +26,7 @@ extension String {
         return result
     }
     
-    static func join(array: Array<String>)->String
+    public static func join(array: Array<String>)->String
     {
         var result: String=""
         for value in array{
@@ -35,13 +35,13 @@ extension String {
         return result
     }
     
-    func split(delimiter: Character = " ") -> [String] {
+    public func split(delimiter: Character = " ") -> [String] {
         return Swift.split(self) { (char: Character) -> Bool in
             char == delimiter
         }
     }
     
-    func toCharacterArray()->[Character]{
+    public func toCharacterArray()->[Character]{
         var resultArray = [Character]()
         
         for char in self{
@@ -52,7 +52,7 @@ extension String {
     }
     
     
-    func indexOfString(string : String)->Int?{
+    public func indexOfString(string : String)->Int?{
         if countElements(self)==0 || countElements(string)==0 {
             return nil
         }
@@ -84,13 +84,13 @@ extension String {
         return nil
     }
     
-    func reverse() -> String {
+    public func reverse() -> String {
         return self.toCharacterArray().reverse().reduce("", combine: {$0 + $1})
     }
 }
 
 extension String{
-    subscript(index: Int) -> String? {
+    public subscript(index: Int) -> String? {
         var castedIndex:Int = index
             if index<0{
                 castedIndex = countElements(self)+index
@@ -109,7 +109,7 @@ extension String{
     }
     
     
-    subscript(startIndex: Int,endIndex: Int) -> String? {
+    public subscript(startIndex: Int,endIndex: Int) -> String? {
         var returnString :String = ""
             for (charIndex,charValue) in enumerate(self){
                 if(charIndex >= startIndex &&  charIndex <= endIndex){

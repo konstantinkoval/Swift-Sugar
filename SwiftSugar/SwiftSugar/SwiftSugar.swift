@@ -8,7 +8,7 @@
 
 import Foundation
 
-func zip<X,Y>(listX : [X], listY : [Y]) -> [(X,Y)] {
+public func zip<X,Y>(listX : [X], listY : [Y]) -> [(X,Y)] {
     
     if listX.count == 0 || listY.count == 0 {
         return []
@@ -17,10 +17,10 @@ func zip<X,Y>(listX : [X], listY : [Y]) -> [(X,Y)] {
     return [(listX[0],listY[0])] + zip(listX.remove(1), listY.remove(1))
 }
 
-func firstElement<C>(collection : [C]) -> C? {
+public func firstElement<C>(collection : [C]) -> C? {
     return collection.isEmpty ? nil : collection[0]
 }
 
-func lastElemen<C>(collection : [C]) -> C? {
+public func lastElemen<C>(collection : [C]) -> C? {
     return collection.isEmpty ? nil : collection[collection.endIndex - 1]
 }
