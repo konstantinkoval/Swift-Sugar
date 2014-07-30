@@ -42,7 +42,11 @@ extension Array {
         
         return Array(self[firstNumberOfElements..<self.count])
     }
-    
+    public func removeLast(lastNumberOfElements : Int) -> Array {
+      
+        return Array(self[0..<(self.endIndex - lastNumberOfElements)])
+    }
+  
     public func numberTimesRepeated<U where U : Equatable>(elementInArray : U)-> Int {
         var repeated : Int = 0
         

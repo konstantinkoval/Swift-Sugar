@@ -55,11 +55,16 @@ class ArrayExtensionsTests: XCTestCase {
     
     func testRemoveElements (){
         var removed = [1,2,3,4].remove(2)
-        println(removed)
         XCTAssertTrue(removed == [3, 4], "should be equal")
         XCTAssertEqual(removed.count, 2, "should have 2 elements")
     }
-    
+  
+    func testRemoveLastElements (){
+        var removed = [1,2,3,4,5].removeLast(2)
+        XCTAssertTrue(removed == [1, 2, 3], "should be equal")
+        XCTAssertEqual(removed.count, 3, "should have 2 elements")
+  }
+  
     func testFist() {
         
         var empty :[Int] = []
