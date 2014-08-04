@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Int {
+public extension Int {
     public func times(repeat: () -> ()){
         for _ in 0..<self {
             repeat()

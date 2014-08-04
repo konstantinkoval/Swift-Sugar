@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Array {
+public extension Array {
     
     public func initial() -> Array {
         return self.initial(1)

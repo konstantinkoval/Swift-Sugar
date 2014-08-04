@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     public var length :Int
     {
@@ -89,7 +89,7 @@ extension String {
     }
 }
 
-extension String{
+public extension String{
     public subscript(index: Int) -> String? {
         var castedIndex:Int = index
             if index<0{
